@@ -11,28 +11,28 @@
     {
       "epoch": 0.16,
       "grad_norm": NaN,
-      "learning_rate": 1.98592e-05,
-      "loss": 0.6784,
+      "learning_rate": 1.97632e-05,
+      "loss": 1.2505,
       "step": 500
     },
     {
       "epoch": 0.32,
       "grad_norm": NaN,
-      "learning_rate": 1.98592e-05,
+      "learning_rate": 1.97632e-05,
       "loss": 0.0,
       "step": 1000
     },
     {
       "epoch": 0.48,
       "grad_norm": NaN,
-      "learning_rate": 1.98592e-05,
+      "learning_rate": 1.97632e-05,
       "loss": 0.0,
       "step": 1500
     },
     {
       "epoch": 0.64,
       "grad_norm": NaN,
-      "learning_rate": 1.98592e-05,
+      "learning_rate": 1.97632e-05,
       "loss": 0.0,
       "step": 2000
     }
@@ -42,7 +42,7 @@
   "num_input_tokens_seen": 0,
   "num_train_epochs": 1,
   "save_steps": 500,
-  "total_flos": 3.639329830895616e+16,
+  "total_flos": 3.549431347170509e+16,
   "train_batch_size": 64,
   "trial_name": null,
   "trial_params": null

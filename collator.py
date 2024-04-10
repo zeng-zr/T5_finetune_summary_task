@@ -12,12 +12,16 @@ print(f'Using {device} device')
 
 model = AutoModelForSeq2SeqLM.from_pretrained(model_checkpoint)
 model = model.to(device)
-
-def collote_fn(batch_samples):
+#  collate_fn accepts tokenized_dataset batch
+def collate_fn(batch_samples):
     batch_inputs, batch_targets = [], []
+    batch_inputs=batch_samples['document']
+    batch_target=batch_samples['summary']
+    '''
     for sample in batch_samples:
-        batch_inputs.append(sample['content'])
-        batch_targets.append(sample['title'])
+        batch_inputs.append(sample['document']) #  batch input
+        batch_targets.append(sample['summary'])  # or 'labels?
+    '''
     batch_data = tokenizer(
         batch_inputs, 
         padding=True, 

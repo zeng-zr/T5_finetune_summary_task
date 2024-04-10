@@ -30,11 +30,11 @@
   "clean_up_tokenization_spaces": true,
   "eos_token": "</s>",
   "extra_ids": 0,
+  "leagcy": true,
   "legacy": true,
   "model_max_length": 1000000000000000019884624838656,
   "pad_token": "<pad>",
   "sp_model_kwargs": {},
   "tokenizer_class": "T5Tokenizer",
-  "unk_token": "<unk>",
-  "use_leagcy": true
+  "unk_token": "<unk>"
 }
