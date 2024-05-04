@@ -18,4 +18,4 @@ Here's a quick summary of the fine-tuning steps involved in this project:
 
 ## Usage
 - run `python train.py` to start fine-tuning
-- run `python pipeline.py` to generate summary for `pred.txt`
+- run `python pipeline.py` to generate summarization for `pred.txt`
